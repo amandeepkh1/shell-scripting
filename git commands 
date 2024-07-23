@@ -1,0 +1,7 @@
+git init (initiliasization )
+git remote add origin https://github.com/amandeepkh1/shell-scripting 
+git fetch origin (gives info remote branches)
+git checkout -b  develop  ( creates new branch)
+git status :: shows file which tracked or untracked
+git commit -m "shellscriptingpractise module 1 and 2" 
+git push origin develop

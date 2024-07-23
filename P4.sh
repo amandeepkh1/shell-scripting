@@ -6,12 +6,12 @@
 
 #!/bin/sh
 file=/etc/shadow
-if [ -e $file ]
+if [ -e $file ] # -e is true if file or directory exists
 then
 echo  "Shadow passwords are enabled." 
 fi
 #write perms check
-if [ -w $file ]
+if [ -w $file ] # -w is true if file has write perms
 then
 echo "You have permissions to edit /etc/shadow."
 else
