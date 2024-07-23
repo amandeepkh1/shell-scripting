@@ -2,7 +2,7 @@
 git init
 git add .
 git commit -m "Initial commit"
-git remote add origin master "https://github.com/amandeepkh1/shell-scripting/"
+git remote add origin  "https://github.com/amandeepkh1/shell-scripting/"
 git push -u origin master
 :::::::::::::::::::::::::::::
 git status
